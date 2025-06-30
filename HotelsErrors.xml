@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel> <!--error1: Hotel instead of hotels-->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+<!-- hotel #2 -->
+  <Hotel Rating="4.4">
+    <Name>Comfort Suites</Name>
+    <!--missing phone element-->
+    <Address NearestAirport="Goodyear Airport">
+      <Number>15575</Number>
+      <Street>W Roosevelt St</Street>
+      <City>Goodyear</City>
+      <State>AZ</State>
+      <Zip>85338</Zip>
+    </Address>
+  </Hotel>
+<!-- hotel #3 -->
+<Hotel>
+    <Name>Hilton Garden Inn</Name>
+    <Phone>623-882-3351</Phone>
+    <Address NearestAirport="Goodyear Airport">
+      <Number>11460</Number>
+      <Street>W Hilton Way</Street>
+      <City>Avondale</City>
+      <State>AZ</State>
+      <Zip>85323</Zip>
+    </Address>
+  </Hotel>
+<!-- hotel #4-->
+<Hotel Rating="4.4">
+    <Name>FairField Inn</Name>
+    <Phone>623-936-6603</Phone>
+    <Address ><!--requires element of nearest airport missing-->
+      <Number>9033</Number>
+      <Street>W McDowell Rd</Street>
+      <City>Tolleson</City>
+      <State>AZ</State>
+      <Zip>85353</Zip>
+    </Address>
+  </Hotel>
+<!-- hotel #5 -->
+<Hotel>
+    <Name>Homewood Suites</Name>
+    <Phone>623-882-3315</Phone>
+    <Address NearestAirport="Goodyear Airport">
+      <Number>11450</Number>
+      <Street>W Hilton Wy</Street>
+      <City>Avondale</City>
+      <State>AZ</State>
+      <Zip>85323</Zip>
+    </Address>
+  </Hotel>
+<!-- hotel #6 -->
+<Hotel Rating="4.2">
+    <Name>Hyatt</Name>
+    <Phone>602-388-4888</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>150</Number>
+      <Street>W Adams St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85003</Zip>
+    <!--no closing tag for addy-->
+  </Hotel>  
+<!-- hotel #7 -->
+<Hotel Rating="4.7">
+    <Name>Renaissance</Name>
+    <Phone>623-937-3700</Phone>
+    <Address NearestAirport="Goodyear Airport">
+      <Number>9495</Number>
+      <Street>W Entertainment Blvd</Street>
+      <City>Glendale</City>
+      <State>AZ</State>
+      <Zip>85305</Zip>
+    </Address>
+  </Hotel>
+<!-- hotel #8 -->
+<Hotel Rating="4.2">
+    <Name>Hilton</Name>
+    <Name>Hilton Inn</Name> <!--two names provided-->
+    <Phone>480-473-4000</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>7887</Number>
+      <Street>E Princess Blvd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85255</Zip>
+    </Address>
+  </Hotel>
+<!-- hotel #9 -->
+<Hotel>
+<Name>Wyndham</Name>
+    <Phone>480-967-6600</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1600</Number>
+      <Street>S 52nd St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+<!-- hotel #10 -->
+<Hotel Rating="4.8">
+    <Name>Westin Downtown</Name>
+    <Phone>602-429-3500</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>333</Number>
+      <Street>N Central Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  
+</Hotels>

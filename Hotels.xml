@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
-  <Hotel Rating="4.2">
+  <Hotel Rating="4.2" NearestAirport="Sky Harbor">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address>
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -13,10 +13,10 @@
     </Address>
   </Hotel>
 <!-- hotel #2 -->
-  <Hotel Rating="4.4">
+  <Hotel Rating="4.4" NearestAirport="Goodyear Airport">
     <Name>Comfort Suites</Name>
     <Phone>520-257-3134</Phone>
-    <Address NearestAirport="Goodyear Airport">
+    <Address>
       <Number>15575</Number>
       <Street>W Roosevelt St</Street>
       <City>Goodyear</City>
@@ -25,10 +25,10 @@
     </Address>
   </Hotel>
 <!-- hotel #3 -->
-<Hotel>
+<Hotel NearestAirport="Goodyear Airport">
     <Name>Hilton Garden</Name>
     <Phone>623-882-3351</Phone>
-    <Address NearestAirport="Goodyear Airport">
+    <Address>
       <Number>11460</Number>
       <Street>W Hilton Way</Street>
       <City>Avondale</City>
@@ -37,10 +37,10 @@
     </Address>
   </Hotel>
 <!-- hotel #4-->
-<Hotel Rating="4.4">
+<Hotel Rating="4.4" NearestAirport="Goodyear Airport">
     <Name>FairField Inn</Name>
     <Phone>623-936-6603</Phone>
-    <Address NearestAirport="Goodyear Airport">
+    <Address>
       <Number>9033</Number>
       <Street>W McDowell Rd</Street>
       <City>Tolleson</City>
@@ -49,10 +49,10 @@
     </Address>
   </Hotel>
 <!-- hotel #5 -->
-<Hotel>
+<Hotel NearestAirport="Goodyear Airport">
     <Name>Homewood Suites</Name>
     <Phone>623-882-3315</Phone>
-    <Address NearestAirport="Goodyear Airport">
+    <Address>
       <Number>11450</Number>
       <Street>W Hilton Wy</Street>
       <City>Avondale</City>
@@ -61,10 +61,10 @@
     </Address>
   </Hotel>
 <!-- hotel #6 -->
-<Hotel Rating="4.2">
+<Hotel Rating="4.2" NearestAirport="Sky Harbor">
     <Name>Hyatt</Name>
     <Phone>602-388-4888</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address>
       <Number>150</Number>
       <Street>W Adams St</Street>
       <City>Phoenix</City>
@@ -73,10 +73,10 @@
     </Address>
   </Hotel>  
 <!-- hotel #7 -->
-<Hotel Rating="4.7">
+<Hotel Rating="4.7" NearestAirport="Goodyear Airport">
     <Name>Renaissance</Name>
     <Phone>623-937-3700</Phone>
-    <Address NearestAirport="Goodyear Airport">
+    <Address>
       <Number>9495</Number>
       <Street>W Entertainment Blvd</Street>
       <City>Glendale</City>
@@ -85,10 +85,10 @@
     </Address>
   </Hotel>
 <!-- hotel #8 -->
-<Hotel Rating="4.2">
+<Hotel Rating="4.2" NearestAirport="Sky Harbor">
     <Name>Hilton</Name>
     <Phone>480-473-4000</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address>
       <Number>7887</Number>
       <Street>E Princess Blvd</Street>
       <City>Scottsdale</City>
@@ -97,10 +97,10 @@
     </Address>
   </Hotel>
 <!-- hotel #9 -->
-<Hotel>
+<Hotel NearestAirport="Sky Harbor">
     <Name>Wyndham</Name>
     <Phone>480-967-6600</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address>
       <Number>1600</Number>
       <Street>S 52nd St</Street>
       <City>Tempe</City>
@@ -109,10 +109,10 @@
     </Address>
   </Hotel>
 <!-- hotel #10 -->
-<Hotel Rating="4.8">
+<Hotel Rating="4.8" NearestAirport="Sky Harbor">
     <Name>Westin Downtown</Name>
     <Phone>602-429-3500</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address>
       <Number>333</Number>
       <Street>N Central Ave</Street>
       <City>Phoenix</City>
